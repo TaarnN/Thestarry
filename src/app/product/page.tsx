@@ -105,7 +105,7 @@ const Product = () => {
       {/* Components */}
       <div className="h-screen w-screen flex flex-col justify-center items-center naturebackground" id="compose">
         <div className="w-1/2 text-center flex flex-col items-center">
-          <Title text="แนวคิด" className="text-white" />
+          <Title text="อุปกรณ์" className="text-white" />
 
           <Separator className="w-1/3 my-6" />
 
