@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import Navbar from "@/components/navbar";
 import { motion } from "framer-motion";
 import { Separator } from "@/components/ui/separator";
+import Image from "next/image";
 
 const Product = () => {
   let compoicount = 0;
@@ -98,12 +99,44 @@ const Product = () => {
       {/* Concept */}
       <div className="h-screen w-screen flex flex-col justify-center items-center bg-white">
         <div className="w-1/2 text-center flex flex-col items-center">
+          <Image
+            src={"https://cdn-icons-png.flaticon.com/512/427/427735.png"}
+            alt="ideaicon"
+            width={60}
+            height={60}
+            className="mb-[-2rem]"
+          />
           <Title text="แนวคิด" className="text-black" />
+
+          <Separator className="w-1/3 bg-zinc-800 my-6" />
+
+          <motion.div
+            className="text-lg"
+            initial={{ y: 200, opacity: 0 }}
+            whileInView={{
+              y: 0,
+              opacity: 1,
+              transition: {
+                ...transP,
+                delay: 0.3,
+              },
+            }}
+          >
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque
+            facere soluta iste ullam itaque id qui, ratione voluptate temporibus
+            perferendis nobis laborum quasi nostrum consectetur vitae ducimus
+            error cupiditate! Quia numquam, est error eligendi expedita quod
+            perspiciatis non ex minus mollitia a sapiente iusto facere modi
+            placeat dolores necessitatibus sit.
+          </motion.div>
         </div>
       </div>
 
       {/* Components */}
-      <div className="h-screen w-screen flex flex-col justify-center items-center naturebackground" id="compose">
+      <div
+        className="h-screen w-screen flex flex-col justify-center items-center naturebackground"
+        id="compose"
+      >
         <div className="w-1/2 text-center flex flex-col items-center">
           <Title text="อุปกรณ์" className="text-white" />
 

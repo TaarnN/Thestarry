@@ -41,17 +41,22 @@ const Home = () => {
       {/* HERO */}
       <div className="herobackground h-screen w-screen flex flex-col justify-center items-center">
         {/* Particles */}
+
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 3.5 }}
           className="h-full w-full fixed"
         >
-          <Particles
-            className="h-screen w-screen fixed top-0 left-0 bottom-0 right-0"
-            quantity={70}
-            ease={75}
-          />
+          {window.scrollY === 0 ? (
+            <Particles
+              className="h-screen w-screen fixed top-0 left-0 bottom-0 right-0"
+              quantity={70}
+              ease={75}
+            />
+          ) : (
+            <></>
+          )}
         </motion.div>
 
         {/* Hero body */}
@@ -167,6 +172,13 @@ const Home = () => {
         id="mainupc"
       >
         <div className="w-1/2 text-center flex flex-col items-center">
+          <Image
+            alt="upcycleicon"
+            src={"https://cdn-icons-png.flaticon.com/512/8087/8087104.png"}
+            width={60}
+            height={60}
+            className="mb-6"
+          />
           <motion.h1
             className="scroll-m-20 text-5xl font-extrabold tracking-tight lg:text-6xl flex"
             initial={{ y: 100, opacity: 0 }}
@@ -179,14 +191,6 @@ const Home = () => {
             }}
           >
             &ldquo;Upcycle&ldquo; คืออะไร
-            <span className="ml-6">
-              <Image
-                alt="upcycleicon"
-                src={"https://cdn-icons-png.flaticon.com/512/8087/8087104.png"}
-                width={60}
-                height={60}
-              />
-            </span>
           </motion.h1>
           <Separator className="w-1/3 bg-zinc-800 my-6" />
           <motion.div
@@ -201,16 +205,21 @@ const Home = () => {
               },
             }}
           >
-            Upcycle
-            คือการแปรรูปวัสดุหรือผลิตภัณฑ์ที่ใช้แล้วให้กลายเป็นสิ่งใหม่ที่มีมูลค่าสูงขึ้น
-            ซึ่งแตกต่างจากการ Recycle ทั่วไปที่มักจะลดคุณค่าของวัสดุ
-            แนวคิดนี้เน้นการใช้ความคิดสร้างสรรค์ในการสร้างสรรค์ผลิตภัณฑ์จากขยะหรือของเก่าที่ไม่ใช้แล้ว
-            อีกทั้งการ Upcycle
-            ยังช่วยลดปริมาณขยะและส่งเสริมความยั่งยืนในสิ่งแวดล้อม
-            โดยผลิตภัณฑ์ของเราก็ได้มีการ Upcycle ขยะอยู่ 2 ประเภท
-            คือขวดแก้วและฝาขวด{" "}
-            <Link href={"/product#compose"}>
-              <div className="p-4 text-blue-500">อุปกรณ์เพิ่มเติม</div>
+            <p>
+              Upcycle
+              คือการแปรรูปวัสดุหรือผลิตภัณฑ์ที่ใช้แล้วให้กลายเป็นสิ่งใหม่ที่มีมูลค่าสูงขึ้น
+              ซึ่งแตกต่างจากการ Recycle ทั่วไปที่มักจะลดคุณค่าของวัสดุ
+              แนวคิดนี้เน้นการใช้ความคิดสร้างสรรค์ในการสร้างสรรค์ผลิตภัณฑ์จากขยะหรือของเก่าที่ไม่ใช้แล้ว
+              อีกทั้งการ Upcycle
+              ยังช่วยลดปริมาณขยะและส่งเสริมความยั่งยืนในสิ่งแวดล้อม
+              โดยผลิตภัณฑ์ของเราก็ได้มีการ Upcycle ขยะอยู่ 2 ประเภท
+              คือขวดแก้วและฝาขวด
+            </p>
+            <Link
+              href={"https://www.google.com/search?q=upcycling"}
+              target="_blank"
+            >
+              <div className="p-4 text-blue-500">ข้อม​ูลเพิ่มเติม</div>
             </Link>
           </motion.div>
         </div>
