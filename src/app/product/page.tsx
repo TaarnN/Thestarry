@@ -54,14 +54,14 @@ const Product = () => {
     stiffness: 120,
   };
 
-  const [themec, setThemec] = useState<string>("dark");
+  const [themec, setThemec] = useState<string>("light");
 
   const handleScroll = () => {
     const currentSection = Math.floor(window.scrollY / window.innerHeight);
     if (currentSection % 2 === 0) {
-      setThemec("dark");
-    } else {
       setThemec("light");
+    } else {
+      setThemec("dark");
     }
   };
 
@@ -72,27 +72,40 @@ const Product = () => {
     };
   }, []);
 
+  const Title = ({ text, className }: { text: string; className?: string }) => {
+    return (
+      <motion.h1
+        className={`scroll-m-20 text-5xl font-extrabold tracking-tight lg:text-6xl pt-10 ${className}`}
+        initial={{ y: 100, opacity: 0 }}
+        animate={{
+          y: 0,
+          opacity: 1,
+          transition: {
+            ...transP,
+            delay: 0.2,
+          },
+        }}
+      >
+        {text}
+      </motion.h1>
+    );
+  };
+
   return (
     <>
       <Navbar curr="product" theme={themec} />
 
-      {/* Components */}
-      <div className="h-screen w-screen inset-y-0 inset-x-0 flex flex-col justify-center items-center naturebackground">
+      {/* Concept */}
+      <div className="h-screen w-screen flex flex-col justify-center items-center bg-white">
         <div className="w-1/2 text-center flex flex-col items-center">
-          <motion.h1
-            className="scroll-m-20 text-5xl font-extrabold tracking-tight lg:text-6xl text-white pt-10"
-            initial={{ y: 100, opacity: 0 }}
-            whileInView={{
-              y: 0,
-              opacity: 1,
-              transition: {
-                ...transP,
-                delay: 0.2,
-              },
-            }}
-          >
-            อุปกรณ์
-          </motion.h1>
+          <Title text="แนวคิด" className="text-black" />
+        </div>
+      </div>
+
+      {/* Components */}
+      <div className="h-screen w-screen flex flex-col justify-center items-center naturebackground" id="compose">
+        <div className="w-1/2 text-center flex flex-col items-center">
+          <Title text="แนวคิด" className="text-white" />
 
           <Separator className="w-1/3 my-6" />
 

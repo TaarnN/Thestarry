@@ -209,7 +209,7 @@ const Home = () => {
             ยังช่วยลดปริมาณขยะและส่งเสริมความยั่งยืนในสิ่งแวดล้อม
             โดยผลิตภัณฑ์ของเราก็ได้มีการ Upcycle ขยะอยู่ 2 ประเภท
             คือขวดแก้วและฝาขวด{" "}
-            <Link href={"/product"}>
+            <Link href={"/product#compose"}>
               <div className="p-4 text-blue-500">อุปกรณ์เพิ่มเติม</div>
             </Link>
           </motion.div>
