@@ -21,7 +21,7 @@ const Product = () => {
     return (
       <motion.div
         initial={{ opacity: 0, scale: 0 }}
-        animate={{
+        whileInView={{
           opacity: 1,
           scale: 1,
           transition: {
@@ -78,7 +78,7 @@ const Product = () => {
       <motion.h1
         className={`scroll-m-20 text-5xl font-extrabold tracking-tight lg:text-6xl pt-10 ${className}`}
         initial={{ y: 100, opacity: 0 }}
-        animate={{
+        whileInView={{
           y: 0,
           opacity: 1,
           transition: {
@@ -173,6 +173,50 @@ const Product = () => {
               title="สีอะคริลิค"
               description="ระบายตัว mobile"
             />
+          </div>
+        </div>
+      </div>
+
+      {/* Using */}
+      <div className="h-screen w-screen flex flex-col justify-center items-center bg-white">
+        <div className="w-1/2 text-center flex flex-col items-center">
+          <div className="bg-yellow-200 blur-md rounded-full w-12 h-12 top-8 relative"></div>
+          <Image
+            src={"https://cdn-icons-png.flaticon.com/512/3301/3301046.png"}
+            alt="usingicon"
+            width={60}
+            height={60}
+            className="z-30"
+          />
+
+          <Title text="การใช้งาน" />
+          <Separator className="w-1/3 bg-zinc-800 my-6" />
+
+          <div>
+            <motion.div
+              className="text-lg"
+              initial={{ y: 200, opacity: 0 }}
+              whileInView={{
+                y: 0,
+                opacity: 1,
+                transition: {
+                  ...transP,
+                  delay: 0.4,
+                },
+              }}
+            >
+              <div className="font-bold mb-4">จะมีไฟอยู่ 3 mode คือ</div>
+              <ul>
+                <li className="blink">1. mode กระพิบเร็ว</li>
+                <li className="slowblink">2. mode กระพิบช้า</li>
+                <li>3. mode ไม่กระพิบ</li>
+              </ul>
+              <div className="font-bold mt-4">
+                สามารถเปลี่ยน mode ได้ โดยกดปุ่ม switch สีแดง
+              </div>
+              สามารถใช้เป็นโคมไฟสำหรับประดับตกแต่งได้ <br />
+              และยังสามารถใช้ส่องแสงได้ โดยจะสวยงามในที่มืด
+            </motion.div>
           </div>
         </div>
       </div>
