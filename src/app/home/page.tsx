@@ -48,15 +48,11 @@ const Home = () => {
           transition={{ duration: 3.5 }}
           className="h-full w-full fixed"
         >
-          {window.scrollY === 0 ? (
-            <Particles
-              className="h-screen w-screen fixed top-0 left-0 bottom-0 right-0"
-              quantity={70}
-              ease={75}
-            />
-          ) : (
-            <></>
-          )}
+          <Particles
+            className="h-screen w-screen fixed top-0 left-0 bottom-0 right-0"
+            quantity={70}
+            ease={75}
+          />
         </motion.div>
 
         {/* Hero body */}
