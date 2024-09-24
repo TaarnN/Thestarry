@@ -78,7 +78,7 @@ const AboutUs = () => {
 
           <Title text="ติดต่อ" />
           <Separator className="w-1/3 bg-white my-6" />
-          <div className="font-extrabold">162011....@kusrd.ac.th - .... ....</div>
+          <div className="font-extrabold">unnamedperson713@gmail.com</div>
         </div>
       </div>
     </>
