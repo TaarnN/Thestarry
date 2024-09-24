@@ -122,12 +122,8 @@ const Product = () => {
               },
             }}
           >
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque
-            facere soluta iste ullam itaque id qui, ratione voluptate temporibus
-            perferendis nobis laborum quasi nostrum consectetur vitae ducimus
-            error cupiditate! Quia numquam, est error eligendi expedita quod
-            perspiciatis non ex minus mollitia a sapiente iusto facere modi
-            placeat dolores necessitatibus sit.
+            ได้รับแรงบันดาลใจจากผลงานที่มีชื่อเสียงของศิลปินชื่อดัง คือ <br />
+            The Starry Night จาก Vincent Willem van Gogh
           </motion.div>
         </div>
       </div>
