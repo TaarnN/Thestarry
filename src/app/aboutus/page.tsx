@@ -29,7 +29,7 @@ const AboutUs = () => {
       id: 3,
       name: "ศนิษา ศรีประไพ (32)",
       designation: "ผู้ช่วยทั่วไป",
-      image: "https://placehold.co/60x60/png",
+      image: "https://raw.githubusercontent.com/TaarnN/Thestarry/refs/heads/main/IMG_0458.jpeg?token=GHSAT0AAAAAACX5AHARWU445SQSJDEJIGH4ZXSE3FQ",
     },
     {
       id: 4,
