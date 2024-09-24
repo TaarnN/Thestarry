@@ -23,13 +23,13 @@ const AboutUs = () => {
       id: 2,
       name: "ธารณ์ หงุ่ยตระกูล (14)",
       designation: "ผู้สร้าง website",
-      image: "https://placehold.co/60x60/png",
+      image: "https://raw.githubusercontent.com/TaarnN/Thestarry/refs/heads/main/IMG_0594.jpeg",
     },
     {
       id: 3,
       name: "ศนิษา ศรีประไพ (32)",
       designation: "ผู้ช่วยทั่วไป",
-      image: "https://raw.githubusercontent.com/TaarnN/Thestarry/refs/heads/main/IMG_0458.jpeg?token=GHSAT0AAAAAACX5AHARWU445SQSJDEJIGH4ZXSE3FQ",
+      image: "https://raw.githubusercontent.com/TaarnN/Thestarry/refs/heads/main/IMG_0458.jpeg",
     },
     {
       id: 4,
@@ -41,7 +41,7 @@ const AboutUs = () => {
       id: 5,
       name: "เอริสา ธาราศักดิ์ (40)",
       designation: "ผู้เริ่มแนวคิด และออกแบบผลิตภัณฑ์",
-      image: "https://raw.githubusercontent.com/TaarnN/Thestarry/refs/heads/main/IMG_5182.jpeg?token=GHSAT0AAAAAACX5AHAQB3MQYN42QT65OMRAZXSE4AA",
+      image: "https://raw.githubusercontent.com/TaarnN/Thestarry/refs/heads/main/IMG_5182.jpeg",
     },
   ];
 
