@@ -154,7 +154,7 @@ const Home = () => {
                   alt="lanternimage"
                   width={300}
                   height={400}
-                  className="rounded-lg"
+                  className="rounded-lg border-2 border-white"
                 />
               </motion.div>
             </CardItem>
