@@ -6,6 +6,7 @@ const nextConfig = {
       "placehold.co",
       "cdn-icons-png.flaticon.com",
       "images.unsplash.com",
+      "raw.githubusercontent.com"
     ],
   },
 };
