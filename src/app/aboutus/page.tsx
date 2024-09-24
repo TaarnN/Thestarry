@@ -41,7 +41,7 @@ const AboutUs = () => {
       id: 5,
       name: "เอริสา ธาราศักดิ์ (40)",
       designation: "ผู้เริ่มแนวคิด และออกแบบผลิตภัณฑ์",
-      image: "https://placehold.co/60x60/png",
+      image: "https://raw.githubusercontent.com/TaarnN/Thestarry/refs/heads/main/IMG_5182.jpeg?token=GHSAT0AAAAAACX5AHAQB3MQYN42QT65OMRAZXSE4AA",
     },
   ];
 
