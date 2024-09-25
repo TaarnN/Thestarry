@@ -169,6 +169,11 @@ const Product = () => {
               title="สีอะคริลิค"
               description="ระบายตัว mobile"
             />
+             <Compoi
+              imagename="bi"
+              title="สีอะคริลิค"
+              description="ระบายตัว mobile"
+            />
           </div>
         </div>
       </div>
