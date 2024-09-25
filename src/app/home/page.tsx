@@ -150,7 +150,7 @@ const Home = () => {
                 }}
               >
                 <Image
-                  src={"https://raw.githubusercontent.com/TaarnN/Thestarry/refs/heads/main/IMG_0590.jpeg?token=GHSAT0AAAAAACX5AHARSVINVVZVGFLW73IKZXSFGUA"}
+                  src={"https://raw.githubusercontent.com/TaarnN/Thestarry/refs/heads/main/IMG_0597.jpeg"}
                   alt="lanternimage"
                   width={300}
                   height={400}
