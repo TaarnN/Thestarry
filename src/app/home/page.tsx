@@ -68,7 +68,7 @@ const Home = () => {
                   animate={{ opacity: 1, translateY: 0 }}
                   transition={{ ...transP }}
                 >
-                  The Starry Night <br />
+                  The Harvest <br />
                   <span className="font-extrabold lg:text-7xl">
                     โคมไฟจากขวดแก้ว
                   </span>
