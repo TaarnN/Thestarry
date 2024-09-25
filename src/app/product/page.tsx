@@ -122,7 +122,7 @@ const Product = () => {
               },
             }}
           >
-            ได้รับแรงบันดาลใจจากผลงานที่มีชื่อเสียงของศิลปินชื่อดัง คือ <br />
+            ได้รับแรงบันดาลใจจากผลงานของศิลปินชื่อดัง คือ <br />
             The Harvest จาก Vincent Willem van Gogh
           </motion.div>
         </div>
@@ -133,7 +133,7 @@ const Product = () => {
         className="h-screen w-screen flex flex-col justify-center items-center naturebackground"
         id="compose"
       >
-        <div className="w-1/2 text-center flex flex-col items-center">
+        <div className="w-2/3 text-center flex flex-col items-center">
           <Title text="อุปกรณ์" className="text-white" />
 
           <Separator className="w-1/3 my-6" />
@@ -153,7 +153,7 @@ const Product = () => {
             <Compoi
               imagename="enni"
               title="เส้นเอ็นใส"
-              description="ใช้ห้อย mobile"
+              description="ใช้ห้อย mobile ของตกแต่งอื่น ๆ และตัวโคมไฟ"
             />
           </div>
 
