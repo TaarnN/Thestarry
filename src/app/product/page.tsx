@@ -123,7 +123,7 @@ const Product = () => {
             }}
           >
             ได้รับแรงบันดาลใจจากผลงานที่มีชื่อเสียงของศิลปินชื่อดัง คือ <br />
-            The Starry Night จาก Vincent Willem van Gogh
+            The Harvest จาก Vincent Willem van Gogh
           </motion.div>
         </div>
       </div>
