@@ -33,6 +33,7 @@
 
 .herobackground {
   background-image: url("https://raw.githubusercontent.com/TaarnN/Thestarry/refs/heads/main/karsten-wurth-UbGYPMbMYP8-unsplash.jpg");
+  background-size: cover;
 }
 
 .naturebackground {
