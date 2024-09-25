@@ -104,13 +104,13 @@ const Home = () => {
                   }}
                 >
                   <Link href={"/product"}>
-                    <Button className="bg-blue-400 hover:bg-blue-300 active:bg-blue-500 text-black font-bold mt-14 text-xl p-6 rounded-lg">
+                    <Button className="bg-orange-400 hover:bg-orange-300 active:bg-orange-500 text-black font-bold mt-14 text-xl p-6 rounded-lg">
                       เพิ่มเติมเกี่ยวกับผลิตภัณฑ์
                     </Button>
                   </Link>
                   <Link href="#mainupc">
                     <Button
-                      className=" text-white font-bold mt-14 ml-4 text-xl p-6 rounded-lg bg-transparent hover:bg-transparent active:bg-transparent border-2 border-blue-500 hover:text-white"
+                      className=" text-white font-bold mt-14 ml-4 text-xl p-6 rounded-lg bg-transparent hover:bg-transparent active:bg-transparent border-2 border-orange-500 hover:text-white"
                       variant={"outline"}
                     >
                       การ Upcycle
