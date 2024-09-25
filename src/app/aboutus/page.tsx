@@ -17,7 +17,7 @@ const AboutUs = () => {
       id: 1,
       name: "ธันยพิพัธน์ อรุณธารี (13)",
       designation: "ผู้แสดงความคิดเห็นขั้นสุดยอด",
-      image: "https://placehold.co/60x60/png",
+      image: "https://raw.githubusercontent.com/TaarnN/Thestarry/refs/heads/main/IMG_0596.jpeg",
     },
     {
       id: 2,
@@ -35,7 +35,7 @@ const AboutUs = () => {
       id: 4,
       name: "ศิริญญา นัฏสุภัคพงศ์ (33)",
       designation: "ผู้ช่วยทั่วไป",
-      image: "https://placehold.co/60x60/png",
+      image: "https://raw.githubusercontent.com/TaarnN/Thestarry/refs/heads/main/IMG_0595.jpeg",
     },
     {
       id: 5,
